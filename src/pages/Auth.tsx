@@ -119,8 +119,7 @@ const Auth = () => {
             </div>
           </div>
           <CardTitle className="text-2xl">
-            <span className="text-primary">FinTrix</span>{" "}
-            <span className="text-foreground">Trade</span>
+            <span className="text-primary">Brunson</span>
           </CardTitle>
           <CardDescription>
             Start your crypto trading journey today

@@ -52,7 +52,7 @@ const Install = () => {
           </div>
 
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold mb-2">Install Fintrix Trade</h1>
+            <h1 className="text-2xl md:text-3xl font-bold mb-2">Install Brunson</h1>
             <p className="text-muted-foreground">
               Get the full app experience on your device
             </p>

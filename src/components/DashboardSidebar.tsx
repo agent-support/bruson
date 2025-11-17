@@ -31,7 +31,7 @@ export function DashboardSidebar() {
       <SidebarContent className="bg-primary">
         <div className="p-6 border-b border-primary-foreground/10 bg-primary">
           <h2 className="text-xl font-bold text-primary-foreground">
-            Fintrix Trade
+            Brunson
           </h2>
           <p className="text-sm text-primary-foreground/80 mt-1">Crypto Trading Platform</p>
         </div>

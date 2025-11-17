@@ -7,9 +7,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src={fintrixLogo} alt="Fintrix Trade" className="w-10 h-10 rounded-lg object-contain" />
+            <img src={fintrixLogo} alt="Brunson" className="w-10 h-10 rounded-lg object-contain" />
             <span className="text-xl font-bold text-foreground">
-              Fintrix Trade
+              Brunson
             </span>
           </div>
 

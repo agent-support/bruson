@@ -12,7 +12,7 @@ const HeroSection = () => {
                 <TrendingUp className="w-6 h-6 text-white" />
               </div>
               <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
-                Fintrix Trade{" "}
+                Brunson{" "}
                 <span className="text-primary">Crypto</span>{" "}
                 <span className="text-secondary">Trading</span>{" "}
                 Platform
@@ -21,7 +21,7 @@ const HeroSection = () => {
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
               Trade smarter with institutional-grade analytics, automated strategies, and real-time market insights. 
-              Fintrix Trade combines AI-driven execution, transparent risk controls, and secure custody so you can 
+              Brunson combines AI-driven execution, transparent risk controls, and secure custody so you can 
               grow your portfolio with confidence.
             </p>
 

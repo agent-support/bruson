@@ -35,7 +35,7 @@ const DownloadPrompt = () => {
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Download className="h-5 w-5 text-primary" />
-            Download Fintrix Trade App
+            Download Brunson App
           </DialogTitle>
           <DialogDescription>
             Get the best trading experience with our mobile app. Install now for quick access and enhanced features!

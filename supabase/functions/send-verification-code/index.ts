@@ -88,16 +88,16 @@ const handler = async (req: Request): Promise<Response> => {
     await smtpClient.send({
       from: Deno.env.get("SMTP_USER") || "support@fintrixtrade.online",
       to: email,
-      subject: "Your Fintrix Trade Verification Code",
+      subject: "Your Brunson Verification Code",
       content: "auto",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h1 style="color: #333;">Welcome to Fintrix Trade!</h1>
+          <h1 style="color: #333;">Welcome to Brunson!</h1>
           <p>Your verification code is:</p>
           <h2 style="background: #f4f4f4; padding: 20px; text-align: center; font-size: 32px; letter-spacing: 5px;">${code}</h2>
           <p>This code will expire in <strong>30 minutes</strong>.</p>
           <p>If you didn't request this code, please ignore this email.</p>
-          <p>Best regards,<br>The Fintrix Trade Team</p>
+          <p>Best regards,<br>The Brunson Team</p>
         </div>
       `,
     });

@@ -25,7 +25,7 @@ export function DemoSidebar() {
       <SidebarContent>
         <div className="p-6">
           <h2 className="text-xl font-bold text-foreground">
-            Fintrix Trade
+            Brunson
           </h2>
           <p className="text-sm text-muted-foreground mt-1">Demo Mode</p>
         </div>

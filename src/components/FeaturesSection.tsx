@@ -40,7 +40,7 @@ const FeaturesSection = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Why Choose <span className="text-primary">Fintrix Trade</span>?
+            Why Choose <span className="text-primary">Brunson</span>?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             We've revolutionized crypto trading with cutting-edge technology, making 

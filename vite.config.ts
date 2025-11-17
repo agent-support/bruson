@@ -17,8 +17,8 @@ export default defineConfig(({ mode }) => ({
       registerType: 'autoUpdate',
       includeAssets: ['icon-192x192.png', 'icon-512x512.png'],
       manifest: {
-        name: 'Fintrix Trade - Crypto Trading',
-        short_name: 'Fintrix Trade',
+        name: 'Brunson - Crypto Trading',
+        short_name: 'Brunson',
         description: 'AI-Powered Crypto Trading Platform',
         theme_color: '#1a1f2e',
         background_color: '#0a0f1e',

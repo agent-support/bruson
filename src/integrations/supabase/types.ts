@@ -89,6 +89,7 @@ export type Database = {
           btc_wallet_address: string | null
           country: string | null
           created_at: string
+          email: string | null
           eth_balance: number | null
           eth_wallet_address: string | null
           full_name: string | null
@@ -108,6 +109,7 @@ export type Database = {
           btc_wallet_address?: string | null
           country?: string | null
           created_at?: string
+          email?: string | null
           eth_balance?: number | null
           eth_wallet_address?: string | null
           full_name?: string | null
@@ -127,6 +129,7 @@ export type Database = {
           btc_wallet_address?: string | null
           country?: string | null
           created_at?: string
+          email?: string | null
           eth_balance?: number | null
           eth_wallet_address?: string | null
           full_name?: string | null

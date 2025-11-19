@@ -93,20 +93,14 @@ const AdminDashboard = () => {
       setWebsiteSettings(settings);
     }
 
-    // Fetch all profiles with user emails
+    // Fetch all profiles (email is now stored in profiles table)
     const { data: profilesData } = await supabase
       .from("profiles")
-      .select("*");
+      .select("*")
+      .order("created_at", { ascending: false });
 
     if (profilesData) {
-      // Fetch user emails from auth.users
-      const userPromises = profilesData.map(async (profile) => {
-        const { data: { user } } = await supabase.auth.admin.getUserById(profile.user_id);
-        return { ...profile, email: user?.email || 'N/A' };
-      });
-      
-      const usersWithEmails = await Promise.all(userPromises);
-      setUsers(usersWithEmails);
+      setUsers(profilesData);
       
       const totalBalance = profilesData.reduce((sum, p) => sum + (parseFloat(String(p.usd_balance)) || 0), 0);
       setStats(prev => ({ ...prev, totalUsers: profilesData.length, totalBalance }));
